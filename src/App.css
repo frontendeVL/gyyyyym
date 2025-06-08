@@ -1,12 +1,11 @@
-/* make variables */
 :root {
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
-  --orange: #f48915;
+  --green: #39FF14;
   --darkGrey: #464D53;
   --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor:  #3c3f45;
+  --planCard: linear-gradient(210.41deg, #73fa42 1.14%, #857d74 100.75%);
+  --appColor:  #1A1A1A;
 }
 
 .App {
@@ -18,6 +17,29 @@
   gap: 6rem;
   overflow: hidden;
 }
+
 ::-webkit-scrollbar{
   display: none;
+}
+
+.stroke-text{
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.btn{
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 5px solid transparent;
+  transition: 300ms ease all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover{
+  cursor: pointer;
 }

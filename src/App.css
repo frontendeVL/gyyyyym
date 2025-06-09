@@ -2,7 +2,7 @@
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
   --green: #39FF14;
-  --darkGrey: #464D53;
+  --darkGrey: #383b3e;
   --caloryCard: #656565;
   --planCard: linear-gradient(210.41deg, #73fa42 1.14%, #857d74 100.75%);
   --appColor:  #1A1A1A;
@@ -38,6 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 0.3rem;
 }
 
 .btn:hover{

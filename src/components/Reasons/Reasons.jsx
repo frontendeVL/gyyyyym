@@ -10,7 +10,6 @@ import nike from '../../assets/nike.png';
 import tick from '../../assets/tick.png';
 const Reasons = () => {
   return (
-    <div>
       <div className="Reasons" id='reasons'>
         <div className="left-r">
           <img src={image1} alt="Image1" />
@@ -19,7 +18,41 @@ const Reasons = () => {
           <img src={image4} alt="Image4" />
         </div>
         <div className="right-r">
-          Right Side
+          <span>some reasons</span>
+
+          <div>
+            <span className='stroke-text'>why</span>
+              <span> choose us?</span>
+          </div>
+
+          <div className='details-r'>
+          <div>
+            <img src={tick} alt="Tick img"/>
+            <span>OVER 100 EXPERT COACHES</span>
+          </div>
+          <div>
+            <img src={tick} alt="Tick img"/>
+            <span>TRAIN SMAETER AND FASTER THAN BEFORE</span>
+          </div>
+          <div>
+            <img src={tick} alt="Tick img"/>
+            <span>1 FREE PROGRAM FOR A NEW MEMBER</span>
+          </div>
+          <div>
+            <img src={tick} alt="Tick img"/>
+            <span>RELIABLE PARTNERS</span>
+          </div>
+        </div>
+        <span style={{
+          color: 'var(--gray)', 
+          fontWeight: 'normal',
+        }}>
+          OUR PARTNERS
+        </span>
+        <div className="partners">
+          <img src={nb} alt=""/>
+          <img src={adidas} alt=""/>
+          <img src={nike} alt=""/>
         </div>
       </div>
     </div>

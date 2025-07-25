@@ -8,17 +8,17 @@ import Calories from '../../assets/calories.png'
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header/>
 
 
-       {/* The best ad*/}
         <div className="the-best-ad">
           <div></div>
             <span>The best fitness club in Berlin</span>
         </div>
 
-        {/*Hero Heading*/}
+        {/*Hero Heading */}
         <div className="hero-text">
           <div>
             <span className='stroke-text' >Shape </span>

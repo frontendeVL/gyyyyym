@@ -36,3 +36,21 @@
 .logo-f>img{
   width: 15rem;
 }
+
+.blur-f-1{
+  bottom: 0;
+  right: 15%;
+  width: 38rem;
+  height: 15rem;
+  filter: blur(150px);
+  background: rgb(245, 245, 87);
+}
+
+.blur-f-2{
+  bottom: 0;
+  left: 15%;
+  width: 38rem;
+  height: 15rem;
+  filter: blur(150px);
+  background: rgb(87, 245, 98);
+}

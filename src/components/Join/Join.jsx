@@ -29,8 +29,8 @@ const Join = () => {
           action="https://formspree.io/f/manbobyp" 
           method="POST"
         >
-          <input type="email" name='user_email' placeholder='Enter your email address' />
-          <button type="submit" className='btn btn-j'>Join Now</button> {/* type="submit" важливий */}
+          <input type="email" name='user_email' placeholder='Enter your phone number' />
+          <button type="submit" className='btn btn-j'>Join Now</button>
         </form>
       </div>
     </div>

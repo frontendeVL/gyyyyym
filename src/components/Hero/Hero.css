@@ -173,4 +173,23 @@
   .figures>div>span:nth-of-type(2){
     font-size: small;
   }
+
+  .right-h{
+    position: relative;
+    background: none;
+  }
+
+  .hero-image{
+    position: relative;
+    top: 6rem;
+    left: 5rem;
+    width: 15rem;
+    align-self: center;
+  }
+
+  .hero-image-back{
+    width: 15rem;
+    left: 2rem;
+    top: 0rem;
+  }
 }

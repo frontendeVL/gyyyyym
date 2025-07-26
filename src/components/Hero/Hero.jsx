@@ -77,7 +77,7 @@ const Hero = () => {
         
         initial={{right: '11rem'}}
         whileInView={{right: '20rem'}}
-        transition={transition}
+        transition={{...transition, duration: 4}}
 
         src={hero_image_back} alt="Hero image back" className="hero-image-back"/> 
       </div>
